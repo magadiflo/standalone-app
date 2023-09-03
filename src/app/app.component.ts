@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
 
-import { LayoutPageComponent } from './blog/layout-page/layout-page.component';
+import { LayoutPageComponent } from './blog/pages/layout-page/layout-page.component';
 
 @Component({
   selector: 'app-root',
