@@ -5,7 +5,7 @@ import { HomePageComponent } from "./pages/home-page/home-page.component";
 import { DocsPageComponent } from "./pages/docs-page/docs-page.component";
 import { AboutPageComponent } from "./pages/about-page/about-page.component";
 
-export const BLOG_ROUTES: Routes = [
+export default [
   {
     path: '',
     component: LayoutPageComponent,
@@ -16,4 +16,4 @@ export const BLOG_ROUTES: Routes = [
       { path: '**', redirectTo: 'home', },
     ]
   }
-];
+] as Routes;
