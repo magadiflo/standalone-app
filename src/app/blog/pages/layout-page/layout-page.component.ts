@@ -1,13 +1,13 @@
 import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
 
 import { HeaderComponent } from '../../shared/header/header.component';
+import { RouterOutlet } from '@angular/router';
 
 
 @Component({
   selector: 'blog-layout-page',
   standalone: true,
-  imports: [CommonModule, HeaderComponent],
+  imports: [HeaderComponent, RouterOutlet],
   templateUrl: './layout-page.component.html',
   styleUrls: ['./layout-page.component.scss']
 })
