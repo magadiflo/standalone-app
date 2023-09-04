@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-login-page',
   standalone: true,
-  imports: [CommonModule],
+  imports: [RouterLink],
   templateUrl: './login-page.component.html',
   styleUrls: ['./login-page.component.scss']
 })

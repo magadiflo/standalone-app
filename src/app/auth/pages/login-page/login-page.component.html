@@ -1,1 +1,21 @@
-<p>login-page works!</p>
+<div class="container mt-5">
+  <div class="row">
+    <div class="offset-md-3 col-md-6">
+      <h2>Iniciar Sesión</h2>
+      <form>
+        <div class="mb-3">
+          <label for="loginEmail" class="form-label">Correo Electrónico</label>
+          <input type="email" class="form-control" id="loginEmail" placeholder="Correo Electrónico">
+        </div>
+        <div class="mb-3">
+          <label for="loginPassword" class="form-label">Contraseña</label>
+          <input type="password" class="form-control" id="loginPassword" placeholder="Contraseña">
+        </div>
+        <button type="button" class="btn btn-primary" [routerLink]="['/blog']">Iniciar Sesión</button>
+        <div class="form-text">
+          Aún no tengo una cuenta. <a [routerLink]="['/auth', 'register']">Registrarme</a>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
